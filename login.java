@@ -1,4 +1,4 @@
-import java.util.Scanner;
+User import java.util.Scanner;
 
 public class Login {
     public static void main(String[] args) {
@@ -17,7 +17,10 @@ public class Login {
 
         // Check credentials
         if (username.equals(correctUsername) && password.equals(correctPassword)) {
-            System.out.println("Login successful from main branch! Welcome, " + username + ".");
+<<<<<<< HEAD
+=======
+            System.out.println("User Login successful! Welcome, " + username + ".");
+>>>>>>> Feature/add-login-functionality
         } else {
             System.out.println("Login failed. Invalid username or password.");
         }
