@@ -17,7 +17,7 @@ public class Login {
 
         // Check credentials
         if (username.equals(correctUsername) && password.equals(correctPassword)) {
-            System.out.println("Login successful! Welcome, " + username + ".");
+            System.out.println("Login successful from main branch! Welcome, " + username + ".");
         } else {
             System.out.println("Login failed. Invalid username or password.");
         }
